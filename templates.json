@@ -1,0 +1,28 @@
+{
+  "Basic Starter Skill": {
+    "gitUrl": "https://github.com/tingiris/001-alexa-basic-skill.git",
+    "description" : "A simple starter skill."
+  },
+  "Audio Player": {
+    "gitUrl":"https://github.com/alexa/skill-sample-nodejs-audio-player.git",
+    "description" : "Example Audio Player skill from Amazon."
+  },
+  "Space Facts": {
+    "gitUrl": "https://github.com/alexa/skill-sample-nodejs-fact.git",
+    "description" : "The 'Space Facts' skill from Amazon."
+  },
+  "Trivia": {
+    "gitUrl": "https://github.com/alexa/skill-sample-nodejs-trivia.git",
+    "description" : "The 'Trivia' skill from Amazon."
+  },
+  "Quiz Game": {
+    "gitUrl": "https://github.com/alexa/skill-sample-nodejs-quiz-game.git",
+    "description" : "The 'Quiz Game' skill from Amazon."
+  },
+  "Decision Tree": {
+    "gitUrl": "https://github.com/skilltemplates/skill-sample-nodejs-decision-tree.git",
+    "description" : "The 'Decision Tree' skill from Amazon."
+  }
+
+
+}

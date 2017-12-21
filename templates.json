@@ -1,10 +1,10 @@
 {
-  "Hello World": {
-    "gitUrl": "https://github.com/skilltemplates/hello-world-alexa.git",
-    "description" : "A simple starter skill."
+  "Basic Starter": {
+    "gitUrl": "https://github.com/skilltemplates/basic-starter-alexa.git",
+    "description" : "A basic starter template for a custom Alexa skill."
   },
-  "Visual Escape": {
-    "gitUrl":"https://github.com/alexa/visual-escape-alexa.git",
-    "description" : "Example skill for the Echo Show that plays a video."
+  "VideoApp Starter": {
+    "gitUrl":"https://github.com/skilltemplates/videoapp-starter-alexa.git",
+    "description" : "A starter template for an Alexa skill that uses the VideoApp Interface."
   }
 }

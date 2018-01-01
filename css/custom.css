@@ -2,7 +2,7 @@
   height: 55px;
   max-height: 55px;
   line-height: 53px;
-  border-bottom: 0px solid #ccc;
+  border-bottom: 0px solid #ccc !important;
 }
 .module.widget-handle {
   border-left: none;
@@ -66,4 +66,15 @@ border-radius: 0px;
 .module {
   display: inline-block;
   padding: 0 0;
+}
+}
+.local-video-container video {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.local-video-container .background-image-holder {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  top: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }

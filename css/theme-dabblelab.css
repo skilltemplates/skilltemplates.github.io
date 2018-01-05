@@ -3879,14 +3879,14 @@ video {
   margin-bottom: 24px;
 }
 .local-video-container video {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .local-video-container .background-image-holder {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   top: 0;
-  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .background-image-holder.fadeout {
   opacity: 0 !important;

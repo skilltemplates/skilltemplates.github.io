@@ -10,5 +10,9 @@
   "VideoApp Starter": {
     "gitUrl":"https://github.com/skilltemplates/videoapp-starter-alexa.git",
     "description" : "A starter template for an Alexa skill that uses the VideoApp Interface."
+  },
+  "Audio Stream Starter": {
+    "gitUrl":"https://github.com/skilltemplates/audio-stream-starter-alexa.git",
+    "description" : "A starter template for an Alexa audio streaming skill."
   }
 }

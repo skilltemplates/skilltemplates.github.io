@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<!-- Stylesheet-Links -->
+		<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" media="all" />
+		<link rel="stylesheet"	href="../css/style.css" type="text/css" media="all" />
+		<link rel="stylesheet"  href="../css/font-awesome.css" type="text/css" media="all" />
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- //Stylesheet-Links -->
+
+	<!--animate-->
+<link href="../css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="../js/wow.min.js"></script>
+<script src="../js/jquery-1.11.1.min.js"></script>
+
+	<script>
+		 new WOW().init();
+	</script>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+	<!-- Js--Links -->
+	<!-- <script src="js/jquery.min.js"> </script> -->
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/move-top.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+</head>
+
+<body>
+
+	{% include header-inner.html %}
+	<div class="container">
+		{{content}}
+	</div>
+	{% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+<div class="accordion">
+	<div class="accordion-header">What are skill templates?</div>
+	<div class="accordion-content">Skill templates are pre-built code templates for creating Amazon Alexa, Microsoft Cortana skills and Google Assistant apps/skills.</div>
+
+	<div class="accordion-header">How do I use skill templates?</div>
+	<div class="accordion-content">For details on using skill templates please see our Getting Started Guide.</div>
+
+	<div class="accordion-header">Where are the templates for Google Assistant and Microsoft Cortana?</div>
+	<div class="accordion-content">Stay tuned - templates for Google Assistant and Microsoft Cortana are coming soon.</div>
+
+	<div class="accordion-header">Can I contribute templates?</div>
+	<div class="accordion-content">Absolutely! Just send an email to skilltemplates@dabblelab.com with a link to a public git repo containing the code you'd like to share as a template. We'll follow-up with you from there.</div>
+
+	<div class="accordion-header">How do I get support for a template?</div>
+	<div class="accordion-content">Currently, skilltemplates.com is a "passion project" - meaning; we don't make any money from it. We're happy to help as much as we can but we have day jobs and can't guarantee we'll always be availalble for support. So for now, support is limited to comments / questions on our YouTube channel which we normally respond to within 24-hours.</div>
+
+	<div class="accordion-header">Who created this site and why?</div>
+	<div class="accordion-content">This site was created by Steve Tingiris and the team at <a href="http://dabblelab.com/">Dabble Lab</a>. We build custom skills for clients and we created this site share code.</div>
+</div>
+
+<script>
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+		$(".accordion").on("click", ".accordion-header", function() {
+		 $(this).toggleClass("active").next().slideToggle();
+		});
+
+
+});
+
+</script>

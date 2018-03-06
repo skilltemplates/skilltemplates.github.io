@@ -1,0 +1,16 @@
+title: Skill Templates
+email: ashish@dabblelab.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:title/
+twitter_username: dabblelab
+github_username:  dabblelab
+linkedin_username: dabblelab
+facebook_username: dabblelab
+youtube_username: dabblelab
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

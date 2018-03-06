@@ -1,0 +1,24 @@
+# set the main nav here
+# main
+# - page: Page 1
+#   url: /page1
+#   level2:
+#     - page: page 2
+#       url: /page2
+#       level3:
+#         - page: Page 3
+#           url: /page3
+
+docs:
+
+  - title: Home
+    url: /
+
+  - title: Getting Started
+    url: /getting-started
+
+  - title: Templates
+    url: /templates
+
+  - title: FAQ
+    url: /faq

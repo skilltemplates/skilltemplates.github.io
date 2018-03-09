@@ -1,44 +1,13 @@
+---
+layout: null
+title: Skill Templates
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Home</title>
-<!-- Stylesheet-Links -->
-		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all" />
-		<link rel="stylesheet"	href="/css/style.css" type="text/css" media="all" />
-		<link rel="stylesheet"  href="css/font-awesome.css" type="text/css" media="all" />
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<!-- //Stylesheet-Links -->
-
-	<!--animate-->
-<link href="../css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="../js/wow.min.js"></script>
-<script src="../js/jquery-1.11.1.min.js"></script>
-<script src="../js/main.js"></script>
-
-	<script>
-		 new WOW().init();
-	</script>
-<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
-	<!-- Js--Links -->
-	<!-- <script src="../js/jquery.min.js"> </script> -->
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/move-top.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){
-				event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-			});
-		});
-</script>
-</head>
-
+{% include head.html %}
 
 <body>
 
@@ -207,29 +176,7 @@
 </section>
 
 
-  <footer>
-  <section class="footer">
-    <div class="container">
-
-      <div class="footer-bottom">
-        <div class="bottom-left">
-          <span>&#9400; Copyright 2018 Dabble Lab - All Rights Reserved.</span>
-
-        </div>
-        <div class="bottom-mid"><a href="">TOP</a></div>
-        <div class="bottom-right">
-          <ul class="social-icons">
-            <li><a href="https://github.com/skilltemplates" target="_blank"><i class="icon fa fa-github-square"></i></a></li>
-            <li><a href="https://twitter.com/dabblelab" target="_blank"><i class="icon fa fa-twitter-square"></i> </a></li>
-            <li><a href="https://www.linkedin.com/company/8762159/" target="_blank"><i class="icon fa fa-linkedin-square"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCfY-LopSxGekh9LruXLjffg" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-</footer>
-
+{% include footer.html %}
 
 </body>
 </html>

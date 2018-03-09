@@ -1,16 +1,32 @@
 title: Skill Templates
-email: ashish@dabblelab.com
+email: steve@dabblelab.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The fastest way to build custom skills for Amazon Alexa.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title/
 twitter_username: dabblelab
 github_username:  dabblelab
-linkedin_username: dabblelab
-facebook_username: dabblelab
-youtube_username: dabblelab
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  templates:
+    output: true
+    permalink: /:collection/:name
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/theme-dabblelab.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700" rel="stylesheet" type="text/css">
+  <link href="css/font-montserrat.css" rel="stylesheet" type="text/css">
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>
+
+<body class="scroll-assist">
+
+
+{% include nav1.html %}
+
+  <div class="main-container">
+
+    <section>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-md-4 col-sm-4 mb-xs-24">
+            <h2 class="bold mb-xs-16">Pre-Built Alexa Skill Templates</h2>
+            <p class="lead mb40">
+              Build skills for Amazon Alexa with templates and video tutorials that make building skills faster and easier.
+            </p>
+            <a class="btn-lg btn btn-filled btn-rounded" href="/docs/getting-started">Getting Started</a>
+          </div>
+          <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 text-center">
+            <div class="embed-video-container embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A1V9BpNgKKw?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- subscribe -->
+    <section class="bg-primary image-bg">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="/img/alexa-skill-bg.png">
+      </div>
+      <div class="container">
+        <div class="row mb40 mb-xs-24">
+          <div class="col-sm-12 text-center">
+            <h3 class="bold mb8">Get notified when new templates are available.</h3>
+            <p>You'll only get emails when new templates are published and no more than once a week.</p>
+          </div>
+        </div>
+
+        <div class="row mb80 mb-xs-24">
+          <div class="col-sm-6 col-sm-offset-3">
+            <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly." data-error="Please fill all fields correctly.">
+              <input type="text" name="email" class="mb0 transparent validate-email validate-required signup-email-field" placeholder="Email Address">
+              <button type="submit" class="mb0">Subscribe</button>
+              <iframe srcdoc="<!-- Begin MailChimp Signup Form --> <link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;> <style type=&quot;text/css&quot;> 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */ </style> <div id=&quot;mc_embed_signup&quot;> <form action=&quot;https://dabblelab.us11.list-manage.com/subscribe/post?u=a5afc78a00a0eee80853ab2b9&amp;amp;id=aed266daa0&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>     <div id=&quot;mc_embed_signup_scroll&quot;> 	<label for=&quot;mce-EMAIL&quot;>Subscribe to our mailing list</label> 	<input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required>     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->     <div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;><input type=&quot;text&quot; name=&quot;b_a5afc78a00a0eee80853ab2b9_aed266daa0&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>     <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>     </div> </form> </div>  <!--End mc_embed_signup-->" class="mail-list-form">
+              </iframe>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include footer-slim.html copyright="© Copyright 2018 Dabble Lab - All Rights Reserved"%}
+
+  </div>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/flexslider.min.js"></script>
+  <script src="/js/parallax.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>

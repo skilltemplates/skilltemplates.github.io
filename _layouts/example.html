@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/theme-dabblelab.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700" rel="stylesheet" type="text/css">
+  <link href="css/font-montserrat.css" rel="stylesheet" type="text/css">
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>
+
+<body class="scroll-assist perm-fixed-nav">
+
+  {% include nav.html %}
+
+  <div class="main-container">
+
+    <section class="bg-secondary">
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-md-7 col-sm-6 text-center mb-xs-24">
+            <div class="embed-video-container embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/swW8tPRB_J4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/swW8tPRB_J4?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
+            <h3 class="bold">Free Pre-Built Skills for Amazon Alexa</h3>
+            <p class="lead">
+              Skill templates are professionally built skills that are designed to be a starting point for your Alexa skill projects.
+            </p>
+            <a class="btn-lg btn btn-filled btn-rounded" href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-md-5 col-sm-5 mb-xs-24">
+            <h1 class="bold mb40 mb-xs-16">Add Voice to<br/> Your BIG Idea</h1>
+            <h6 class="uppercase mb16">Free Pre-Built Skills for Amazon Alexa</h6>
+            <p class="lead mb40">
+              We've built three distinct image and text combinations for you to showcase the features of your product or service. All combos come in left and right arrangements.
+            </p>
+            <a class="btn-lg btn btn-filled" href="#">Get Started</a>
+          </div>
+          <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
+            <img alt="Screenshot" src="img/slide-img.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary">
+      <div class="container">
+        <div class="row v-align-children">
+          <div class="col-md-4 col-sm-5 mb-xs-24">
+            <h3 class="bold">Inline images &amp; text, vertically centered for visual balance.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed porta sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris non hendrerit nibh. Fusce consectetur sapien a semper feugiat. Cras non maximus massa. Cras in ligula ut lacus pharetra ultricies nec eu urna. Cras sodales et ligula id maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed porta sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris non hendrerit nibh. Fusce consectetur sapien a semper feugiat. Cras non maximus massa. Cras in ligula ut lacus pharetra ultricies nec eu urna. Cras sodales et ligula id maximus.
+            </p>
+          </div>
+          <div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
+            <img class="cast-shadow" alt="Screenshot" src="img/about-img.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="tabbed-content button-tabs vertical">
+              <ul class="tabs">
+                <li class="active">
+                  <div class="tab-title">
+                    <span>Step 1</span>
+                  </div>
+
+                </li>
+                <li class="">
+                  <div class="tab-title">
+                    <span>Step 2</span>
+                  </div>
+
+                </li>
+                <li class="">
+                  <div class="tab-title">
+                    <span>Step 3</span>
+                  </div>
+
+                </li>
+                <li class="">
+                  <div class="tab-title">
+                    <span>Step 4</span>
+                  </div>
+
+                </li>
+              </ul>
+              <ul class="content">
+                <li class="active">
+                  <div class="tab-content">
+                    <h5 class="uppercase">Install the ASK CLI</h5>
+                    <hr>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+                    </p>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="tab-content">
+                    <h5 class="uppercase">Select a Skill Template</h5>
+                    <hr>
+                    <p>
+                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                    </p>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+                    </p>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="tab-content">
+                    <h5 class="uppercase">Deploy Your Skill</h5>
+                    <hr>
+                    <p>
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+                      animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+                    </p>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="tab-content">
+                    <h5 class="uppercase">Test and Publish</h5>
+                    <hr>
+                    <p>
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+                      animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <div class="feature">
+              <i class="ti-gallery icon fade-3-4 inline-block mb16"></i>
+              <h4>Silky Parallax</h4>
+              <p>
+                We've built a buttery smooth parallax scrolling experience with a heavy focus on performance. Extensively tested across a range of browser and mouse types.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <div class="feature">
+              <i class="ti-package icon fade-3-4 inline-block mb16"></i>
+              <h4>Unique Concepts</h4>
+              <p>
+                10 Fresh and unique concepts included out of the box. From portfolio to property showcase, Foundry's adaptable look is perfect for your next project.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <div class="feature">
+              <i class="ti-layers icon fade-3-4 inline-block mb16"></i>
+              <h4>Modular Design</h4>
+              <p>
+                With a plethora of purpose-built content blocks, colors and fonts, Foundry presents a mind-boggling number of combinations. Test drive the builder now!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary image-bg">
+      <div class="background-image-holder">
+        <img alt="Background" class="background-image" src="img/alexa-skill-bg.png">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2 class="mb16">There's so much to love</h2>
+            <p class="lead mb64">
+              A remarkably versatile template packed with features.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="feature feature-1 boxed">
+              <div class="text-center">
+                <i class="ti-package icon"></i>
+                <h5 class="uppercase">Unique Concepts</h5>
+              </div>
+              <p>
+                10 Fresh and unique concepts included out of the box. From portfolio to property showcase, Foundry's adaptable look is perfect for your next project.
+              </p>
+            </div>
+
+          </div>
+          <div class="col-sm-4">
+            <div class="feature feature-1 boxed">
+              <div class="text-center">
+                <i class="ti-infinite icon"></i>
+                <h5 class="uppercase">Infinite Potential</h5>
+              </div>
+              <p>
+                With over 100 pre-made HTML templates included, it's easier than ever to find a look that suits you. If not, just create your own with Variant Page Builder!
+              </p>
+            </div>
+
+          </div>
+          <div class="col-sm-4">
+            <div class="feature feature-1 boxed">
+              <div class="text-center">
+                <i class="ti-heart icon"></i>
+                <h5 class="uppercase">Developer Friendly</h5>
+              </div>
+              <p>
+                We haven't forgotten developers, that's why we've built Foundry from the ground-up as a powerful, easy to understand framework, with a focus on code readability.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- steps -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 text-center mb40 mb-xs-24">
+            <h2 class="bold color-primary mb40 mb-xs-24">A Place To Call Home</h2>
+            <p class="lead">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 class="bold">Step 1</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="bold">Step 2</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="bold">Step 3</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- subscribe -->
+    <section class="bg-primary image-bg">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="img/alexa-skill-bg.png">
+      </div>
+      <div class="container">
+        <div class="row mb40 mb-xs-24">
+          <div class="col-sm-12 text-center">
+            <h3 class="bold mb8">Get notified when new templates are available.</h3>
+            <p>You'll only get emails when new templates are published - no more than once a week.</p>
+          </div>
+        </div>
+
+        <div class="row mb80 mb-xs-24">
+          <div class="col-sm-6 col-sm-offset-3">
+            <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly." data-error="Please fill all fields correctly.">
+              <input type="text" name="email" class="mb0 transparent validate-email validate-required signup-email-field" placeholder="Email Address">
+              <button type="submit" class="mb0">Subscribe</button>
+              <iframe srcdoc="<!-- Begin MailChimp Signup Form --> <link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;> <style type=&quot;text/css&quot;> 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */ </style> <div id=&quot;mc_embed_signup&quot;> <form action=&quot;https://dabblelab.us11.list-manage.com/subscribe/post?u=a5afc78a00a0eee80853ab2b9&amp;amp;id=aed266daa0&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>     <div id=&quot;mc_embed_signup_scroll&quot;> 	<label for=&quot;mce-EMAIL&quot;>Subscribe to our mailing list</label> 	<input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required>     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->     <div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;><input type=&quot;text&quot; name=&quot;b_a5afc78a00a0eee80853ab2b9_aed266daa0&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>     <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>     </div> </form> </div>  <!--End mc_embed_signup-->" class="mail-list-form">
+              </iframe>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include footer-slim.html copyright="© Copyright 2018 Dabble Lab - All Rights Reserved"%}
+
+  </div>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/flexslider.min.js"></script>
+  <script src="/js/parallax.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>

@@ -25,7 +25,7 @@ layout: default
       <div class="col-md-4">
         <div class="skill-box wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
           <h1>01</h1>
-          <h2>Install the Kit</h2>
+          <h2>Get Setup</h2>
           <p>Install <a href="https://nodejs.org/en/download/">Node.JS</a>. Proceed to create <a href="https://developer.amazon.com/">Amazon Developer account</a>, an <a href="https://aws.amazon.com/account/">AWS account</a>, and <a href="https://aws.amazon.com/cli/?sc_channel=PS&sc_campaign=acquisition_IN&sc_publisher=google&sc_medium=command_line_b&sc_content=amazon_cli_bmm&sc_detail=%2Bcli%20%2Bamazon&sc_category=command_line&sc_segment=159807027991&sc_matchtype=b&sc_country=IN&s_kwcid=AL!4422!3!159807027991!b!!g!!%2Bcli%20%2Bamazon&ef_id=Wm8YugAAAr36zhAD:20180306060028" target="blank">ASK-CLI</a>.</p>
         </div>
       </div>
@@ -78,7 +78,7 @@ layout: default
     <p>You'll only get emails when new templates are published, and no more than once a week.</p>
     <form class="subscribe-form wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
       <div class="form-group">
-        <input type="email" value="enter your email address"/>
+        <input type="email" placeholder="enter your email address"/>
         <input type="submit" value="subscribe now" class="submit-btn wow bounceInRight" data-wow-duration="1.5s" data-wow-delay="0.6s"/>
       </div>
     </form>

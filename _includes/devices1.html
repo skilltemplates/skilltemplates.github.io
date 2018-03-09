@@ -1,0 +1,15 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="logo-carousel">
+        <ul class="slides">
+          {% for item in site.data.devices %}
+          <li>
+            <img alt="{{item.name}}" src="{{item.logo_url}}">
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

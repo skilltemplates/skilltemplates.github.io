@@ -1,0 +1,84 @@
+---
+layout: basic
+---
+
+{% for c in site.templates %}
+{% if c.title == page.title %}
+  {% assign thisPost = c %}
+  {% if forloop.index == 1 %}
+    {% assign prevflag = 0 %}
+    {% assign nextflag = 1 %}
+  {% elsif forloop.index == forloop.length %}
+    {% assign prevflag = 1 %}
+    {% assign nextflag = 0 %}
+  {% else %}
+    {% assign prevflag = 1 %}
+    {% assign nextflag = 1 %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+
+{% for c in site.templates %}
+  {% if c.title == page.title %}
+    {% assign prevflag = 0 %}
+  {% endif %}
+  {% if prevflag == 1 %}
+    {% assign prevPost = c %}
+    {% assign page.previous = c %}
+  {% endif %}
+{% endfor %}
+
+{% if nextflag == 1 %}
+  {% for c in site.templates %}
+    {% if foundPost == 1 %}
+      {% assign getNext = 1 %}
+    {% endif %}
+    {% if c.title == page.title %}
+      {% assign foundPost = 1 %}
+    {% endif %}
+    {% if getNext == 1%}
+      {% assign nextPost = c %}
+      {% assign page.next = c %}
+      {% assign foundPost = 0 %}
+      {% assign getNext = 0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<section>
+  <div class="container">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="row text-center">
+        {% if prevPost.url %}
+        <a class="btn btn-large" href="{{prevPost.url}}">
+          <span>&lt; Previous Template</span>
+      </a> {% endif %} {% if nextPost.url %}
+        <a class="btn btn-large" href="{{nextPost.url}}">
+          <span>Next Template &gt;</span>
+      </a> {% endif %}
+      </div>
+      <article class="post">
+
+
+        <div class="feature boxed">
+          <div>
+            <div class="embed-video-container embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{page.video_id}}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{page.video_id}}?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <header>
+            <h5 class="uppercase mb16 mt16 bold">{{ page.title | escape }}</h5>
+          </header>
+          <p>
+            {{page.description}}
+          </p>
+          <p>
+            <code>ask new --template --url http://skilltemplates.com/templates.json</code>
+          </p>
+        </div>
+
+      </article>
+    </div>
+  </div>
+</section>

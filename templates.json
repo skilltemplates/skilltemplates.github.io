@@ -1,0 +1,18 @@
+{
+  "Basic Starter": {
+    "gitUrl": "https://github.com/skilltemplates/basic-starter-alexa.git",
+    "description" : "A basic starter template for a custom Alexa skill."
+  },
+  "API Starter": {
+    "gitUrl": "https://github.com/skilltemplates/api-starter-alexa.git",
+    "description" : "A basic starter template for an Alexa skill that calls an external API."
+  },
+  "VideoApp Starter": {
+    "gitUrl":"https://github.com/skilltemplates/videoapp-starter-alexa.git",
+    "description" : "A starter template for an Alexa skill that uses the VideoApp Interface."
+  },
+  "Audio Stream Starter": {
+    "gitUrl":"https://github.com/skilltemplates/audio-stream-starter-alexa.git",
+    "description" : "A starter template for an Alexa audio streaming skill."
+  }
+}

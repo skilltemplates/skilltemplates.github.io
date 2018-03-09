@@ -9,15 +9,16 @@
 #         - page: Page 3
 #           url: /page3
 
-main:
-  - page: Templates
+docs:
+
+  - title: Home
+    url: /
+
+  - title: Getting Started
+    url: /getting-started
+
+  - title: Templates
     url: /templates
-  - page: Getting Started
-    url: /docs/getting-started
-#    level2:
-#      - page: Getting Started
-#        url: /docs/getting-started
-#      - page: ASK-CLI Install
-#        url: /docs/ask-cli-install
-  - page: FAQ
+
+  - title: FAQ
     url: /faq

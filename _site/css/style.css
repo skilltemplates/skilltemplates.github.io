@@ -1121,6 +1121,9 @@ input[type="email"] {
 	line-height: 3px;
 	padding-left: 5px;
 }
+.subscribe h2{
+	font-size: 40px;
+}
 }
 
 .doc-box{margin-bottom: 50px;}

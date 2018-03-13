@@ -868,15 +868,65 @@ input[type="email"] {
 }
 
 @media only screen and (max-width:767px){
+
+.animated {
+			/*CSS transitions*/
+			-o-transition-property: none !important;
+			-moz-transition-property: none !important;
+			-ms-transition-property: none !important;
+			-webkit-transition-property: none !important;
+			transition-property: none !important;
+			/*CSS transforms*/
+			-o-transform: none !important;
+			-moz-transform: none !important;
+			-ms-transform: none !important;
+			-webkit-transform: none !important;
+			transform: none !important;
+			/*CSS animations*/
+			-webkit-animation: none !important;
+			-moz-animation: none !important;
+			-o-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+		}
+
+iframe {
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo img{
+	width: 60%;
+}
+
+.p-info-text{
+	margin-left: 0 !important;
+}
+
+.doc-info{
+	width: 100% !important;
+}
+
+.doc-video, .doc-video img{
+	width: 100%;
+}
+
+.faq{
+	width: 100%;
+}
+
 .navbar-toggle.collapsed {
-	margin-right: 50px;
+	margin-right: 0;
 	float: right;
 	margin-top: 4px;
 	padding: 6px;
 }
 
 .navbar-toggle {
-	margin-right: 50px;
+	margin-right: 0;
 	float: right;
 	margin-top: 4px;
 	padding: 6px;
@@ -887,7 +937,7 @@ input[type="email"] {
 	left: 5%;
 }
 .banner {
-	min-height: 500px;
+	min-height: auto;
 }
 .banner-text {
 	width: 100%;
@@ -1022,7 +1072,7 @@ input[type="email"] {
 	padding: 0;
 }
 .footer {
-	padding: 40px 0 0;
+	padding: 20px 0 0;
 }
 .footer-about, .helpful-links, .footer-contact  {
 	width: 100%;
@@ -1045,8 +1095,8 @@ input[type="email"] {
 	margin-bottom: 10px;
 }
 .footer-bottom {
-	margin-top: 20px;
-	padding: 20px 0;
+	margin-top: 0;
+	padding: 0;
 	position: relative;
 }
 .bottom-mid {

@@ -812,6 +812,7 @@ input[type="email"] {
 
 iframe {
 	width: 100%;
+	height: auto;
 }
 
 .logo {

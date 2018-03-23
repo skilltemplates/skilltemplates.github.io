@@ -38,14 +38,14 @@ html, body, aside, haeder, footer, section{ display:block;}
 	overflow: hidden;
 }
 .header {
-	padding: 1em 0;
+	padding: 10px 0;
 	position: relative;
 	border-bottom: 1px solid #ededed;
 }
 .logo {
 	padding: 0;
 }
-.logo img{width: auto;}
+.logo img{width: 60%;}
 .logo p{color: #888; font-size: 13px;}
 /*--logo--*/
 .navbar-header h1 {

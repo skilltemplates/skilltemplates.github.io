@@ -38,14 +38,14 @@ html, body, aside, haeder, footer, section{ display:block;}
 	overflow: hidden;
 }
 .header {
-	padding-top: 1em;
+	padding: 1em 0;
 	position: relative;
 	border-bottom: 1px solid #ededed;
 }
 .logo {
 	padding: 0;
 }
-.logo img{width: 45%;}
+.logo img{width: auto;}
 .logo p{color: #888; font-size: 13px;}
 /*--logo--*/
 .navbar-header h1 {
@@ -97,6 +97,7 @@ html, body, aside, haeder, footer, section{ display:block;}
 }
 .navbar-right {
 	margin-right: 0;
+	padding-top: 12px;
 }
 
 /*--//top-nav--*/
@@ -1077,6 +1078,7 @@ input[type="email"] {
 
 	iframe {
 		width: 100%;
+	  height: auto;
 	}
 
 	.logo {

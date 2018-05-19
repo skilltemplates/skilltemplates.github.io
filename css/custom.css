@@ -67,7 +67,7 @@ border-radius: 0px;
   display: inline-block;
   padding: 0 0;
 }
-}
+
 .local-video-container video {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }

@@ -8,6 +8,7 @@ permalink: /blog/:title/
 twitter_username: dabblelab
 github_username:  dabblelab
 privacy_url: http://dabblelab.com/privacy
+terms_url: http://dabblelab.com/terms
 
 # Build settings
 markdown: kramdown

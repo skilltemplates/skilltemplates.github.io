@@ -18,5 +18,10 @@
   "Flash Briefing Starter": {
     "gitUrl":"https://github.com/skilltemplates/flash-briefing-starter-alexa.git",
     "description" : "A starter template for an Alexa flash briefing skill."
+  },
+  "Knowledge Base Starter": {
+    "gitUrl":"https://github.com/skilltemplates/knowledge-base-starter-alexa.git",
+    "description" : "A starter template for an Alexa knowledge base or FAQ skill."
   }
+
 }

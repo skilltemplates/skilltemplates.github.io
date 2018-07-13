@@ -7,6 +7,10 @@
     "gitUrl": "https://github.com/skilltemplates/api-starter-alexa.git",
     "description" : "A basic starter template for an Alexa skill that calls an external API."
   },
+  "Attributes Starter": {
+    "gitUrl": "https://github.com/skilltemplates/attributes-starter-alexa.git",
+    "description" : "A basic starter template for an Alexa skill that shows how to store attributes in DynamoDB using the ASK SDK 2.0."
+  },
   "VideoApp Starter": {
     "gitUrl":"https://github.com/skilltemplates/videoapp-starter-alexa.git",
     "description" : "A starter template for an Alexa skill that uses the VideoApp Interface."

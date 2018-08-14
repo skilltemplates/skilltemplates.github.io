@@ -22,5 +22,9 @@
   "Flash Briefing Starter": {
     "gitUrl":"https://github.com/skilltemplates/flash-briefing-starter-alexa.git",
     "description" : "A starter template for an Alexa flash briefing skill."
+  },
+  "Customer Profile API Starter": {
+    "gitUrl":"https://github.com/skilltemplates/customer-profile-starter-alexa.git",
+    "description": "A starter template for Alexa skill that uses the Customer Profile API"
   }
 }

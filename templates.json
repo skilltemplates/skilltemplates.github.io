@@ -26,5 +26,9 @@
   "Customer Profile API Starter": {
     "gitUrl":"https://github.com/skilltemplates/customer-profile-starter-alexa.git",
     "description": "A starter template for Alexa skill that uses the Customer Profile API"
+  },
+  "Device Location API Starter": {
+    "gitUrl": "https://github.com/skilltemplates/device-location-starter-alexa.git",
+    "description": "A starter template for Alexa skill that uses the Device Location API"
   }
 }

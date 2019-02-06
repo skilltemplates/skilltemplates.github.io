@@ -7,8 +7,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title/
 twitter_username: dabblelab
 github_username:  dabblelab
+youtube_username:  dabblelab
 privacy_url: http://dabblelab.com/privacy
 terms_url: http://dabblelab.com/terms
+registration_url: https://app.skilltemplates.com/signup
 
 # Build settings
 markdown: kramdown

@@ -1,34 +1,62 @@
 {
   "Basic Starter": {
     "gitUrl": "https://github.com/skilltemplates/basic-starter-alexa.git",
-    "description" : "A basic starter template for a custom Alexa skill."
+    "description": "A basic starter template for a custom Alexa skill."
   },
   "API Starter": {
     "gitUrl": "https://github.com/skilltemplates/api-starter-alexa.git",
-    "description" : "A basic starter template for an Alexa skill that calls an external API."
+    "description": "A basic starter template for an Alexa skill that calls an external API."
   },
   "Attributes Starter": {
     "gitUrl": "https://github.com/skilltemplates/attributes-starter-alexa.git",
-    "description" : "A basic starter template for an Alexa skill that shows how to store attributes in DynamoDB using the ASK SDK 2.0."
+    "description": "A basic starter template for an Alexa skill that shows how to store attributes in DynamoDB using the ASK SDK 2.0."
   },
   "VideoApp Starter": {
-    "gitUrl":"https://github.com/skilltemplates/videoapp-starter-alexa.git",
-    "description" : "A starter template for an Alexa skill that uses the VideoApp Interface."
+    "gitUrl": "https://github.com/skilltemplates/videoapp-starter-alexa.git",
+    "description": "A starter template for an Alexa skill that uses the VideoApp Interface."
   },
   "Audio Stream Starter": {
-    "gitUrl":"https://github.com/skilltemplates/audio-stream-starter-alexa.git",
-    "description" : "A starter template for an Alexa audio streaming skill."
-  },
-  "Flash Briefing Starter": {
-    "gitUrl":"https://github.com/skilltemplates/flash-briefing-starter-alexa.git",
-    "description" : "A starter template for an Alexa flash briefing skill."
+    "gitUrl": "https://github.com/skilltemplates/audio-stream-starter-alexa.git",
+    "description": "A starter template for an Alexa audio streaming skill."
   },
   "Customer Profile API Starter": {
-    "gitUrl":"https://github.com/skilltemplates/customer-profile-starter-alexa.git",
+    "gitUrl": "https://github.com/skilltemplates/customer-profile-starter-alexa.git",
     "description": "A starter template for Alexa skill that uses the Customer Profile API"
   },
   "Device Location API Starter": {
     "gitUrl": "https://github.com/skilltemplates/device-location-starter-alexa.git",
     "description": "A starter template for Alexa skill that uses the Device Location API"
+  },
+  "Customer Settings API Starter" : {
+    "gitUrl": "https://github.com/skilltemplates/settings-api-starter.git",
+    "description": "A simple template to demonstrate Customer Settings API"
+  },
+  "Progressive Response Starter Alexa" : {
+    "gitUrl": "https://github.com/skilltemplates/progressive-response-starter-alexa.git",
+    "description": "A template that provides a simple example of a skill that gives progressive response"
+  },
+  "DynamoDB Starter Alexa" : {
+    "gitUrl": "https://github.com/skilltemplates/dynamodb-starter-alexa.git",
+    "description": "A template that demonstrates how to use DynamoDB to manage user data in an Alexa skill."
+  },
+  "Can Fulfill Intent Starter" : {
+    "gitUrl": "https://github.com/skilltemplates/canfulfillintent-sample.git",
+    "description": "A simple template to demonstrate CanFulfillIntentRequest"
+  },
+  "Dialog Delegate Starter Alexa" : {
+    "gitUrl": "https://github.com/skilltemplates/dialog-delegate-starter-alexa.git",
+    "description": "An Alexa skill template that provides a simple example of a skill that utilizes the Dialog Delegate Feature."
+  },
+  "Presentation Language Starter" : {
+    "gitUrl": "https://github.com/skilltemplates/presentation-language-starter.git",
+    "description": "An Alexa skill template that shows how to use the Alexa Presentation Language."
+  },
+  "In Skill Purchase Starter" : {
+    "gitUrl": "https://github.com/skilltemplates/isp-consumables-alexa.git",
+    "description": "An Alexa skill template that shows how to use In Skill Purchases for your Alexa Skills."
+  },
+  "Proactive Event API Starter" : {
+    "gitUrl": "https://github.com/skilltemplates/proactive-events-api.git",
+    "description": "An Alexa skill template that shows how to integrate Proactive Events API."
   }
 }

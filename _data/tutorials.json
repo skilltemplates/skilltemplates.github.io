@@ -1,0 +1,824 @@
+[
+  {
+    "id": "1",
+    "published": "2015-04-09T04:00:00.000Z",
+    "youtubeid": "N5nQpeL23vM",
+    "title": "How to use plain html templates in WordPress"
+  },
+  {
+    "id": "2",
+    "published": "2016-05-18T04:00:00.000Z",
+    "youtubeid": "ERR5PYPYrms",
+    "title": "How to prototype your mobile app idea using Balsamiq Mockups"
+  },
+  {
+    "id": "3",
+    "published": "2016-12-20T05:00:00.000Z",
+    "youtubeid": "RP46QwtgCt0",
+    "title": "How to Design an App Using UI Kits"
+  },
+  {
+    "id": "4",
+    "published": "2016-12-20T05:00:00.000Z",
+    "youtubeid": "v71jBVM2sCo",
+    "title": "Best Places to Find Great Font Pairings"
+  },
+  {
+    "id": "5",
+    "published": "2016-12-20T05:00:00.000Z",
+    "youtubeid": "TwZ0jngJHnU",
+    "title": "Sketch Resources, Icons and Introduction to UI Kits"
+  },
+  {
+    "id": "6",
+    "published": "2016-12-20T05:00:00.000Z",
+    "youtubeid": "ggwa8SkXeeE",
+    "title": "Using Sketch to Create a Low Fidelity Mock Up of Instagram"
+  },
+  {
+    "id": "7",
+    "published": "2016-12-20T05:00:00.000Z",
+    "youtubeid": "s7wcHmW0FCA",
+    "title": "Sketch vs Photoshop for Rookies"
+  },
+  {
+    "id": "8",
+    "published": "2017-01-02T05:00:00.000Z",
+    "youtubeid": "X5tcc9jHAV0",
+    "title": "How to share your prototype with InvisionApp"
+  },
+  {
+    "id": "9",
+    "published": "2017-03-16T04:00:00.000Z",
+    "youtubeid": "kxdmkz9JWQA",
+    "title": "Building your first Amazon Alexa Skill (Mar 2017)"
+  },
+  {
+    "id": "10",
+    "published": "2017-07-14T04:00:00.000Z",
+    "youtubeid": "RMUM0hQOq8Q",
+    "title": "A custom Amazon Alexa Skill in 14-minutes"
+  },
+  {
+    "id": "11",
+    "published": "2017-07-15T04:00:00.000Z",
+    "youtubeid": "RR8BXqRw1nk",
+    "title": "Setting up a sample chatbot in Amazon Lex"
+  },
+  {
+    "id": "12",
+    "published": "2017-07-19T04:00:00.000Z",
+    "youtubeid": "edPrPcgjTgw",
+    "title": "Docker with Node.js in 5-minutes"
+  },
+  {
+    "id": "13",
+    "published": "2017-07-28T04:00:00.000Z",
+    "youtubeid": "cNJvyv0nYaw",
+    "title": "Saving Alexa session data in DynamoDB"
+  },
+  {
+    "id": "14",
+    "published": "2017-08-02T04:00:00.000Z",
+    "youtubeid": "FucapfzyVKM",
+    "title": "Using SSML in custom Alexa skills"
+  },
+  {
+    "id": "15",
+    "published": "2017-08-05T04:00:00.000Z",
+    "youtubeid": "pKlnpf0SsoE",
+    "title": "Playing mp3 audio files in an Alexa skill using SSML"
+  },
+  {
+    "id": "16",
+    "published": "2017-08-16T04:00:00.000Z",
+    "youtubeid": "L7_Wg6oAo0k",
+    "title": "Using intents with custom Alexa skills"
+  },
+  {
+    "id": "17",
+    "published": "2017-08-18T04:00:00.000Z",
+    "youtubeid": "cFzAIhsldbs",
+    "title": "Packaging Lambda Functions for Alexa Skills"
+  },
+  {
+    "id": "18",
+    "published": "2017-08-24T04:00:00.000Z",
+    "youtubeid": "_SUeL-HSuIo",
+    "title": "Introduction to using slots in Alexa skills"
+  },
+  {
+    "id": "19",
+    "published": "2017-09-01T04:00:00.000Z",
+    "youtubeid": "bBx91TJRx4k",
+    "title": "Testing Alexa Skills without an Amazon Echo"
+  },
+  {
+    "id": "20",
+    "published": "2017-09-04T04:00:00.000Z",
+    "youtubeid": "V5lFQc0YFNw",
+    "title": "Debugging Lambda Functions used for Alexa Skills"
+  },
+  {
+    "id": "21",
+    "published": "2017-09-06T04:00:00.000Z",
+    "youtubeid": "p-zlSdixCZ4",
+    "title": "Introduction to the Alexa Skills Kit CLI (ASK-CLI)"
+  },
+  {
+    "id": "22",
+    "published": "2017-09-15T04:00:00.000Z",
+    "youtubeid": "68gxGJVRg0Y",
+    "title": "Using cards in custom Alexa skills"
+  },
+  {
+    "id": "23",
+    "published": "2017-09-21T04:00:00.000Z",
+    "youtubeid": "_2s2o5vM1Z4",
+    "title": "Locally testing Lambda functions used for Alexa skills"
+  },
+  {
+    "id": "24",
+    "published": "2017-09-29T04:00:00.000Z",
+    "youtubeid": "FOZ-hLwkEKI",
+    "title": "An Amazon Alexa Business Dashboard"
+  },
+  {
+    "id": "25",
+    "published": "2017-10-05T04:00:00.000Z",
+    "youtubeid": "vsEaGjPPLqM",
+    "title": "Calling an external API from a custom Alexa Skill"
+  },
+  {
+    "id": "26",
+    "published": "2017-10-13T04:00:00.000Z",
+    "youtubeid": "6SQBbdFmW3o",
+    "title": "Prototyping Amazon Alexa Skills with Sayspring"
+  },
+  {
+    "id": "27",
+    "published": "2017-10-20T04:00:00.000Z",
+    "youtubeid": "ukR0Aw5P3W8",
+    "title": "Using state handlers in a custom Alexa skill"
+  },
+  {
+    "id": "28",
+    "published": "2017-10-23T04:00:00.000Z",
+    "youtubeid": "CiiLkKNgyhc",
+    "title": "Creating an Alexa audio flash briefing skill"
+  },
+  {
+    "id": "29",
+    "published": "2017-11-02T04:00:00.000Z",
+    "youtubeid": "IGLCmpIYyP0",
+    "title": "AWS Lambda Versioning for Alexa Skills"
+  },
+  {
+    "id": "30",
+    "published": "2017-11-08T05:00:00.000Z",
+    "youtubeid": "8IQfhX2WJ_I",
+    "title": "Creating an Alexa skill with the Jovo Framework"
+  },
+  {
+    "id": "31",
+    "published": "2017-11-10T05:00:00.000Z",
+    "youtubeid": "UlEhXDOIPvU",
+    "title": "Build your first Alexa skill in 4-minutes"
+  },
+  {
+    "id": "32",
+    "published": "2017-11-17T05:00:00.000Z",
+    "youtubeid": "NTTmZRHwjQE",
+    "title": "Let Alexa help validate your startup idea"
+  },
+  {
+    "id": "33",
+    "published": "2017-11-17T05:00:00.000Z",
+    "youtubeid": "QEAElAVkwwU",
+    "title": "Using the ASK-CLI to create Alexa skills from 'skill templates'"
+  },
+  {
+    "id": "34",
+    "published": "2017-11-24T05:00:00.000Z",
+    "youtubeid": "IsFUdJQVxLs",
+    "title": "Using dialogs in custom Alexa skills"
+  },
+  {
+    "id": "35",
+    "published": "2017-11-27T05:00:00.000Z",
+    "youtubeid": "C7wF4OTTKb4",
+    "title": "2011 11 27 youtube channel ad"
+  },
+  {
+    "id": "36",
+    "published": "2017-11-27T05:00:00.000Z",
+    "youtubeid": "4WtJefuWHuY",
+    "title": "Dabble Lab Channel Intro"
+  },
+  {
+    "id": "37",
+    "published": "2017-11-27T05:00:00.000Z",
+    "youtubeid": "gXNuSrkcWtw",
+    "title": "Microsoft Cortana videos coming soon"
+  },
+  {
+    "id": "38",
+    "published": "2017-12-01T05:00:00.000Z",
+    "youtubeid": "l9YqnNN84kc",
+    "title": "Creating new Alexa skills using ASK-CLI templates"
+  },
+  {
+    "id": "39",
+    "published": "2017-12-04T05:00:00.000Z",
+    "youtubeid": "n_hMTi1VKWQ",
+    "title": "Building your first Amazon Alexa Skill (Dec 2017)"
+  },
+  {
+    "id": "40",
+    "published": "2017-12-08T05:00:00.000Z",
+    "youtubeid": "EA0xkheF9T4",
+    "title": "Alexa skill development using bespoken proxy"
+  },
+  {
+    "id": "41",
+    "published": "2017-12-15T05:00:00.000Z",
+    "youtubeid": "JWmQcXCxD54",
+    "title": "Testing Alexa skills with  the Test Simulator (beta)"
+  },
+  {
+    "id": "42",
+    "published": "2017-12-22T05:00:00.000Z",
+    "youtubeid": "a8VQ88lpswg",
+    "title": "Create an Alexa skill that plays a video"
+  },
+  {
+    "id": "43",
+    "published": "2017-12-29T05:00:00.000Z",
+    "youtubeid": "swW8tPRB_J4",
+    "title": "Build an Alexa skill that calls an external API"
+  },
+  {
+    "id": "44",
+    "published": "2018-01-05T05:00:00.000Z",
+    "youtubeid": "A1V9BpNgKKw",
+    "title": "Using templates to quickly build  Alexa skills"
+  },
+  {
+    "id": "45",
+    "published": "2018-01-12T05:00:00.000Z",
+    "youtubeid": "LgB4dJMkTVY",
+    "title": "How to build an Alexa audio streaming skill from a template"
+  },
+  {
+    "id": "46",
+    "published": "2018-01-26T05:00:00.000Z",
+    "youtubeid": "EF7UVv_SbM4",
+    "title": "Horne Demo V1-0"
+  },
+  {
+    "id": "47",
+    "published": "2018-01-30T05:00:00.000Z",
+    "youtubeid": "m2TXkdrZoec",
+    "title": "Horne Demo V1-1"
+  },
+  {
+    "id": "48",
+    "published": "2018-02-02T05:00:00.000Z",
+    "youtubeid": "yfK7c6h5BbM",
+    "title": "Shine FM Ohio Demo"
+  },
+  {
+    "id": "49",
+    "published": "2018-02-15T05:00:00.000Z",
+    "youtubeid": "YgWjQqjCgYk",
+    "title": "Horne Demo V2-0"
+  },
+  {
+    "id": "50",
+    "published": "2018-04-06T04:00:00.000Z",
+    "youtubeid": "Rwz8B-eV0Oo",
+    "title": "Using AWS CodeStar to Deploy Alexa Skills"
+  },
+  {
+    "id": "51",
+    "published": "2018-03-25T04:00:00.000Z",
+    "youtubeid": "otoaHeULYfE",
+    "title": "Horne Demo V2-1"
+  },
+  {
+    "id": "52",
+    "published": "2018-03-29T04:00:00.000Z",
+    "youtubeid": "ei_q4saWwcE",
+    "title": "Building your first Amazon Alexa Skill (Mar 2018)"
+  },
+  {
+    "id": "53",
+    "published": "2018-04-01T04:00:00.000Z",
+    "youtubeid": "rg4xVs3JBSk",
+    "title": "Setting the AWS region for Lambda function used for Alexa Skills"
+  },
+  {
+    "id": "54",
+    "published": "2018-04-13T04:00:00.000Z",
+    "youtubeid": "2j8QLFxneOw",
+    "title": "NodeJS for Building Alexa Skills -  Video #1: Asynchronous Functions"
+  },
+  {
+    "id": "55",
+    "published": "2018-04-17T04:00:00.000Z",
+    "youtubeid": "rKbc6voQnHw",
+    "title": "NodeJS for Building Alexa Skills - Video #2: Javascript Variables"
+  },
+  {
+    "id": "56",
+    "published": "2018-04-20T04:00:00.000Z",
+    "youtubeid": "Fuwgy98LZdA",
+    "title": "Create Alexa Skills Without Coding Using Skill Blueprints"
+  },
+  {
+    "id": "57",
+    "published": "2018-04-22T04:00:00.000Z",
+    "youtubeid": "Jhe3yV2WZRU",
+    "title": "Dabble Lab Live Stream"
+  },
+  {
+    "id": "58",
+    "published": "2018-04-26T04:00:00.000Z",
+    "youtubeid": "s-_Fh7CgP_4",
+    "title": "NodeJS for Building Alexa Skills - Video #3: Intro to Modules"
+  },
+  {
+    "id": "59",
+    "published": "2018-05-03T04:00:00.000Z",
+    "youtubeid": "xwINB7Cvq3g",
+    "title": "NodeJS for Building Alexa Skills - Video #4: Creating Modules"
+  },
+  {
+    "id": "60",
+    "published": "2018-05-10T04:00:00.000Z",
+    "youtubeid": "Ze6krw1W-mg",
+    "title": "NodeJS for Building Alexa Skills - Video #5: Using Promises, async & await"
+  },
+  {
+    "id": "61",
+    "published": "2018-05-14T04:00:00.000Z",
+    "youtubeid": "lcJ_K7dTjW0",
+    "title": "How to setup the Alexa Skills Kit Command Line Interface (ASK CLI)"
+  },
+  {
+    "id": "62",
+    "published": "2018-05-18T04:00:00.000Z",
+    "youtubeid": "8QHnSSKbIH4",
+    "title": "Creating an Alexa skill using the ASK CLI and the ASK SDK 2.0"
+  },
+  {
+    "id": "63",
+    "published": "2018-05-25T04:00:00.000Z",
+    "youtubeid": "OqMwmXag7-Q",
+    "title": "Building an Alexa flash briefing manager with Node.js"
+  },
+  {
+    "id": "64",
+    "published": "2018-05-28T04:00:00.000Z",
+    "youtubeid": "6ma4KgHqXYg",
+    "title": "Building an Alexa skill using a template from skilltemplates.com"
+  },
+  {
+    "id": "65",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "PnQblgX4STI",
+    "title": "03 - Using AWS Lambda to create a skill service"
+  },
+  {
+    "id": "66",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "N_m07M3_Aas",
+    "title": "08 - Coding Alexa skills on your local computer"
+  },
+  {
+    "id": "67",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "Dxg0iV8bCOU",
+    "title": "07 - The ASK CLI and coding skills on your local computer"
+  },
+  {
+    "id": "68",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "9iNYtjgXJtQ",
+    "title": "01 - How Alexa works from a technical perspective"
+  },
+  {
+    "id": "69",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "ZYkOMgVw_S8",
+    "title": "06 - Coding custom intents and slots"
+  },
+  {
+    "id": "70",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "YF0bIduKOOU",
+    "title": "04 - Testing skills during development"
+  },
+  {
+    "id": "71",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "BZMRIxVJF5o",
+    "title": "10 - Next steps after completing Alexa Development 101"
+  },
+  {
+    "id": "72",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "Z1c3ieJRs3g",
+    "title": "09 - Building a complete skill end-to-end"
+  },
+  {
+    "id": "73",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "_WGvZkihIUI",
+    "title": "02 - Setting up a skill in the Alexa developer portal"
+  },
+  {
+    "id": "74",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "kAncRw9fvyQ",
+    "title": "00 - Welcome to Alexa Development 101"
+  },
+  {
+    "id": "75",
+    "published": "2018-06-22T04:00:00.000Z",
+    "youtubeid": "YMb0y66UCxs",
+    "title": "05 - Understanding utterances, intents, and slots"
+  },
+  {
+    "id": "76",
+    "published": "2018-06-29T04:00:00.000Z",
+    "youtubeid": "T2xc42UlYqo",
+    "title": "Building an Alexa skill that uses data from an external API"
+  },
+  {
+    "id": "77",
+    "published": "2018-07-09T04:00:00.000Z",
+    "youtubeid": "LNMzPsYDojI",
+    "title": "Dabble Lab Live Stream"
+  },
+  {
+    "id": "78",
+    "published": "2018-07-20T04:00:00.000Z",
+    "youtubeid": "G7U6vcI4jew",
+    "title": "Saving user attributes in DynamoDB with the ASK SDK 2.0"
+  },
+  {
+    "id": "79",
+    "published": "2018-07-24T04:00:00.000Z",
+    "youtubeid": "krFNUTloq5U",
+    "title": "Dabble Lab Live Stream"
+  },
+  {
+    "id": "80",
+    "published": "2018-07-24T04:00:00.000Z",
+    "youtubeid": "Op1py-rK56M",
+    "title": "Dabble Lab Live Stream"
+  },
+  {
+    "id": "81",
+    "published": "2018-07-25T04:00:00.000Z",
+    "youtubeid": "UTOX8SSt72w",
+    "title": "Advanced Conversational Design workshop with Justin Jeffress at  #VOICE18"
+  },
+  {
+    "id": "82",
+    "published": "2018-07-25T04:00:00.000Z",
+    "youtubeid": "tPhzROLz0n0",
+    "title": "Dabble Lab Live Stream"
+  },
+  {
+    "id": "83",
+    "published": "2018-07-26T04:00:00.000Z",
+    "youtubeid": "-JpWmc71r9c",
+    "title": "Voice User Interface design talk by Paul Cutsinger at Voice Summit 2018"
+  },
+  {
+    "id": "84",
+    "published": "2018-08-23T04:00:00.000Z",
+    "youtubeid": "2Xfn5kNWbnU",
+    "title": "Using the Alexa Skills Kit Customer Profile API to Personalize Alexa Skills"
+  },
+  {
+    "id": "85",
+    "published": "2018-09-07T04:00:00.000Z",
+    "youtubeid": "aijZp3eXzVU",
+    "title": "Create an Alexa Video Streaming Skill"
+  },
+  {
+    "id": "86",
+    "published": "2018-09-12T04:00:00.000Z",
+    "youtubeid": "sZ7GCMqhjv0",
+    "title": "Using the Alexa Skills Kit Device Address API to personalize Alexa Skills"
+  },
+  {
+    "id": "87",
+    "published": "2018-09-21T04:00:00.000Z",
+    "youtubeid": "xjrxQvyvijk",
+    "title": "Using the Alexa Skills Kit CanFulfillIntentRequest"
+  },
+  {
+    "id": "88",
+    "published": "2018-09-27T04:00:00.000Z",
+    "youtubeid": "xqzhNSXUvDw",
+    "title": "Using the Alexa Skills Kit to Integrate Progressive Response"
+  },
+  {
+    "id": "89",
+    "published": "2018-09-28T04:00:00.000Z",
+    "youtubeid": "wXLFFBB8PQ4",
+    "title": "Using DynamoDB in custom Alexa Skills"
+  },
+  {
+    "id": "90",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "6imjt5l7jXc",
+    "title": "Cortana Skill Development - Part 1 - Dabble Lab #90"
+  },
+  {
+    "id": "91",
+    "published": "2018-10-06T04:00:00.000Z",
+    "youtubeid": "CQ8vvk5YRtU",
+    "title": "Amazon alexa meetup 2.0 Nagpur"
+  },
+  {
+    "id": "92",
+    "published": "2018-10-12T04:00:00.000Z",
+    "youtubeid": "86TpTjVtJXk",
+    "title": "Using the Alexa Skills Kit Customer Settings API"
+  },
+  {
+    "id": "93",
+    "published": "2018-10-17T04:00:00.000Z",
+    "youtubeid": "zxg4ghqrSMI",
+    "title": "Twilio Autopilot Introduction"
+  },
+  {
+    "id": "94",
+    "published": "2018-10-17T04:00:00.000Z",
+    "youtubeid": "_2hkSiqB5vo",
+    "title": "Twilio Autopilot Announcement"
+  },
+  {
+    "id": "95",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "ua6XrIV-Zus",
+    "title": "Cortana Skill Development - Part 2 - Dabble Lab #95"
+  },
+  {
+    "id": "96",
+    "published": "2018-10-19T04:00:00.000Z",
+    "youtubeid": "-2Q0s9o_Hd0",
+    "title": "Build an Alexa Audio Streaming Skill - Dabble Lab #96"
+  },
+  {
+    "id": "97",
+    "published": "2018-10-24T04:00:00.000Z",
+    "youtubeid": "XH_wzjQa1bw",
+    "title": "Tip 1: What to do when your Alexa skill won't start."
+  },
+  {
+    "id": "98",
+    "published": "2018-10-26T04:00:00.000Z",
+    "youtubeid": "FGEviyrPY4c",
+    "title": "Using the Alexa Skills Kit Dialogue Directive for Multi Turn Conversations"
+  },
+  {
+    "id": "99",
+    "published": "2018-11-02T04:00:00.000Z",
+    "youtubeid": "pY3XUkvbEIs",
+    "title": "Using the Alexa Presentation Language (APL)"
+  },
+  {
+    "id": "100",
+    "published": "2018-11-09T05:00:00.000Z",
+    "youtubeid": "lYXivz7phaw",
+    "title": "How to build an Alexa skill with Twilio Autopilot - Part 1"
+  },
+  {
+    "id": "101",
+    "published": "2018-11-16T05:00:00.000Z",
+    "youtubeid": "ahkLN1AsZyE",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 2"
+  },
+  {
+    "id": "102",
+    "published": "2018-11-18T05:00:00.000Z",
+    "youtubeid": "xIoyEjzERCI",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 1 - Dabble Lab #102"
+  },
+  {
+    "id": "103",
+    "published": "2018-11-18T05:00:00.000Z",
+    "youtubeid": "vaaa3kB-Mvs",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 2 - Dabble Lab #103"
+  },
+  {
+    "id": "104",
+    "published": "2018-11-18T05:00:00.000Z",
+    "youtubeid": "iiKp78K0DD0",
+    "title": "Building your first Amazon Alexa Skill - Nov 2018 - Dabble Lab #104"
+  },
+  {
+    "id": "105",
+    "published": "2018-11-18T05:00:00.000Z",
+    "youtubeid": "u_UrdURH3rA",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 3 - Dabble Lab #105"
+  },
+  {
+    "id": "106",
+    "published": "2018-11-19T05:00:00.000Z",
+    "youtubeid": "doHMBsLT8gE",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 4 - Dabble Lab #106"
+  },
+  {
+    "id": "107",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "zSb8UGRkZMI",
+    "title": "Cortana Skill Development - Part 3 - Dabble Lab #107"
+  },
+  {
+    "id": "108",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "Q-miaQneJ08",
+    "title": " Cortana Skill Development - Part 4 - Dabble Lab #108"
+  },
+  {
+    "id": "109",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "2dPoh6dJaQY",
+    "title": "Cortana Skill Development - Part 5 - Dabble Lab #109"
+  },
+  {
+    "id": "110",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "AH-HuKNlW18",
+    "title": "Cortana Skill Development - Part 6 - Dabble Lab #110"
+  },
+  {
+    "id": "111",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "rM5SaCbGjVQ",
+    "title": "Cortana Skill Development - Part 7 - Dabble Lab #111"
+  },
+  {
+    "id": "112",
+    "published": "2018-12-25T05:00:00.000Z",
+    "youtubeid": "3DgtMnuBmcc",
+    "title": "Cortana Skill Development - Part 8 - Dabble Lab #112"
+  },
+  {
+    "id": "113",
+    "published": "2018-10-24T04:00:00.000Z",
+    "youtubeid": "EBB4tu4VnnI",
+    "title": "Tip 2: What to do when the Alexa Skills Kit trigger isn't available"
+  },
+  {
+    "id": "114",
+    "published": "2018-11-19T05:00:00.000Z",
+    "youtubeid": "YEZKLmEi0Pc",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 5 - Dabble Lab #114"
+  },
+  {
+    "id": "115",
+    "published": "2019-01-04T21:00:00.000Z",
+    "youtubeid": "dO1OMinfCnc",
+    "title": "How to build Alexa skills with Twilio Autopilot - Part 6 - Dabble Lab #115"
+  },
+  {
+    "id": "116",
+    "published": "2018-12-14T05:00:00.000Z",
+    "youtubeid": "6xKdaLYa9qs",
+    "title": "Supporting Multiple Languages in an Alexa Skill - Dabble Lab #116"
+  },
+  {
+    "id": "117",
+    "published": "2018-12-06T05:00:00.000Z",
+    "youtubeid": "2cEUrQjeSsc",
+    "title": "Alexa Demo: Dear Santa Skill - Dabble Lab #117"
+  },
+  {
+    "id": "118",
+    "published": "2018-12-31T18:00:00.000Z",
+    "youtubeid": "xjt9YhNFrno",
+    "title": "Using Twilio Functions and AirTable to Build a Data Collection API - Dabble Lab #118"
+  },
+  {
+    "id": "120",
+    "published": "2018-12-03T05:00:00.000Z",
+    "youtubeid": "p22ZJSyVK5k",
+    "title": "Setting the ASK CLI default Lambda region - Dabble Lab #120"
+  },
+  {
+    "id": "121",
+    "published": "2018-12-08T05:00:00.000Z",
+    "youtubeid": "l-otNJNgW8c",
+    "title": "Using the ASK to integrate Consumables In Skill Purchases - Dabble Lab #121"
+  },
+  {
+    "id": "125",
+    "published": "2018-12-22T05:00:00.000Z",
+    "youtubeid": "oMcHTMZDTVQ",
+    "title": "Alexa Notifications with Proactive Events - Dabble Lab #125"
+  },
+  {
+    "id": "126",
+    "published": "2018-12-28T05:00:00.000Z",
+    "youtubeid": "qenX-sSklr0",
+    "title": "Building your first Google Assistant Action with Dialogflow - Dabble Lab #126"
+  },
+  {
+    "id": "127",
+    "published": "2019-01-04T18:00:00.000Z",
+    "youtubeid": "Ebao8L159MM",
+    "title": "Understanding and using Intents in Dialogflow - Dabble Lab #127"
+  },
+  {
+    "id": "128",
+    "published": "2019-01-11T12:41:00.000Z",
+    "youtubeid": "DdrDUqMKlzc",
+    "title": "Understanding Context and Lifespan in Dialogflow - Dabble Lab #128"
+  },
+  {
+    "id": "129",
+    "published": "2019-01-25T16:55:00.000Z",
+    "youtubeid": "BfutDKS890E",
+    "title": "Diving Deep into Intents - Using Fulfillment and Webhooks / Using Cloud Functions for Firebase"
+  },
+  {
+    "id": "138",
+    "published": "2019-01-01T19:00:00.000Z",
+    "youtubeid": "dcB9mwaor7I",
+    "title": "Cortana Skill Development - Part 9 - Dabble Lab #138"
+  },
+  {
+    "id": "139",
+    "published": "2019-01-14T14:00:00.000Z",
+    "youtubeid": "umPOcz_Wjh0",
+    "title": "Cortana Skill Development - Part 10 - Dabble Lab #139"
+  },
+  {
+    "id": "140",
+    "published": "2019-01-16T17:00:00.000Z",
+    "youtubeid": "SEsrgC8S0Vg",
+    "title": "Cortana Skill Development - Part 11 - Dabble Lab #140"
+  },
+  {
+    "id": "141",
+    "published": "2019-01-18T19:30:00.000Z",
+    "youtubeid": "eQ5zNnEIwFg",
+    "title": "Cortana Skill Development - Part 12 - Dabble Lab #141"
+  },
+  {
+    "id": "142",
+    "published": "2019-01-09T21:08:00.000Z",
+    "youtubeid": "6D544Djzzf4",
+    "title": "Dabble with Experts - Episode 1 - Jan König of Jovo - Dabble Lab #142"
+  },
+  {
+    "id": "143",
+    "published": "2019-01-18T21:00:00.000Z",
+    "youtubeid": "T3ezWyUl8o4",
+    "title": "Faster Alexa Development with Bespoken Tools - Dabble Lab #143"
+  },
+  {
+    "id": "144",
+    "published": "2019-01-17T18:00:00.000Z",
+    "youtubeid": "I8qqQQ_W4XQ",
+    "title": "Dabble with Experts - Episode 2 - Jonathan Burstein of Jargon - Dabble Lab #144"
+  },
+  {
+    "id": "145",
+    "published": "2019-01-31T21:00:00.000Z",
+    "youtubeid": "rN_n_Pxh6Bo",
+    "title": "Dabble with Experts - Episode 3 - Jo Jaquinta of TsaTsaTzu - Dabble Lab #145"
+  },
+  {
+    "id": "146",
+    "published": "2019-01-16T18:00:00.000Z",
+    "youtubeid": "V0TDqhYekPM",
+    "title": "Jovo Wednesday - Episode 1 - Dabble Lab #146"
+  },
+  {
+    "id": "147",
+    "published": "2019-01-22T18:00:00.000Z",
+    "youtubeid": "jKujwlF-iO4",
+    "title": "Jovo Wednesday - Episode 2 - Dabble Lab #147"
+  },
+  {
+    "id": "148",
+    "published": "2019-01-30T18:00:00.000Z",
+    "youtubeid": "9eDim_ImNyc",
+    "title": "Jovo Wednesday - Episode 3 - Dabble Lab #148"
+  },
+  {
+    "id": "149",
+    "published": "2019-02-06T18:00:00.000Z",
+    "youtubeid": "5YGYHB6yxNU",
+    "title": "Jovo Wednesday - Episode 4 - Dabble Lab #149"
+  }
+]

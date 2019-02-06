@@ -1,0 +1,94 @@
+[
+  {
+    "testimonial": "Great video tutorial. I am thankful to the Dabble Lab team for creating some of the best Alexa developer tools/content.",
+    "name": "Rick Ortega"
+  },
+  {
+    "testimonial": "Thanks so much for doing these. They're really great! I made a skill from the audio player template. I'm now trying to make another skill from the same template.",
+    "name": "Eric Oswald"
+  },
+  {
+    "testimonial": "This is SO helpful! Thanks for putting this video together!",
+    "name": "April Tellers"
+  },
+  {
+    "testimonial": "Thanks for the helpful video. Very useful !!",
+    "name": "Ram Kumar Sunderavel"
+  },
+  {
+    "testimonial": "Just followed your tutorial through and this is brilliant, hmmmm what can I build, though I need an Alexa, mine arrives tomorrow!",
+    "name": "Nick Lewis"
+  },
+  {
+    "testimonial": "This was pretty interesting Steve. Those extra tips made it for me. I failed to properly configured it the first time. Thank you for posting great, updated content.",
+    "name": "Juan González"
+  },
+  {
+    "testimonial": "Thank you for this tutorial, super useful.",
+    "name": "Krista Vitola"
+  },
+  {
+    "testimonial": "This is awesome !! Its a lot better than the guides provided. Did it in one shot and had my skill running. Thanks A lot.",
+    "name": "Avinandan Saha"
+  },
+  {
+    "testimonial": "Smashing videos buddy. I'm thinking of jumping right in and trying to create a skill for a 'subjective' question.",
+    "name": "Marco Mckay"
+  },
+  {
+    "testimonial": "Hey! Beginner here! I followed the steps and got it working great!",
+    "name": "Mehuel Divecha"
+  },
+  {
+    "testimonial": "Hi Steve! I have been following your videos on youtube and they have been of great help to get started with alexa skills. I am working on a personal project where I am trying to implement a basic question-answer alexa skill where alexa should respond with a corresponding audio to the question being asked.",
+    "name": "Mahima Gupta"
+  },
+  {
+    "testimonial": "First of all, love all these videos I think I have spent 3 hours watching all of them.",
+    "name": "Mike Shoss"
+  },
+  {
+    "testimonial": "Hi Steve, thank you so much for all your videos, they are extremely helpful and are very well done!",
+    "name": "Katya Verbitsky"
+  },
+  {
+    "testimonial": "Hey Steve! This has been a very helpful tutorial. Thanks for posting!",
+    "name": "Nikita Jain"
+  },
+  {
+    "testimonial": "Hi, Steve, I have been following your videos, they are great.",
+    "name": "Harmeet Singh"
+  },
+  {
+    "testimonial": "Thanks a ton so happy to find a newer video with all the recent changes.",
+    "name": "Aervison"
+  },
+  {
+    "testimonial": "Thanks for the video, it was so helpful to understand the process with the new UI.",
+    "name": "Michael Siregar"
+  },
+  {
+    "testimonial": "Thank you for this! You're teaching the basic fundamental concepts of Javascript in a context of a real project, and an Alexa skill at that, which is pretty rare but awesome. Keep going! Hope you can also do Google Assistant + Firebase as well in the future. :)",
+    "name": "Ray K"
+  },
+  {
+    "testimonial": "Thank you for creating this video. I haven't programmed Alexa for 1-1/2 years and this got me up and running again with no frustration. Streaming would be impossible for me without your code and lesson. Thank you very much for this.",
+    "name": "Marty B"
+  },
+  {
+    "testimonial": "Great explanation, great video! Very clear, very thorough with an easy to understand example.",
+    "name": "Luan Nguyen"
+  },
+  {
+    "testimonial": "Very enlightening. I am struggling with both JavaScript and NodeJS after a lifetime of programming with Delphi Pascal. Thanks, I will be watching out for your following vids.",
+    "name": "Geoff Jenkins"
+  },
+  {
+    "testimonial": "Excellent tutorial! I tried to follow Amazon's docs for creating a skill but they all seemed frustratingly out of date. This tutorial was really clear and helpful. Thank you so much!",
+    "name": "James Clark"
+  },
+  {
+    "testimonial": "I very much like your videos and templates. There are many moving parts between start and finish on skills, and your walkthrough makes it pretty simple to follow. I also especially appreciate your trying to keep current with amazon's changing sites, steps and requirements.",
+    "name": "Robert Elens"
+  }
+]

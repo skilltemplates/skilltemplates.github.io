@@ -1,20 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/theme-orange.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
+    rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700" rel="stylesheet" type="text/css">
+  <link href="/css/font-montserrat.css" rel="stylesheet" type="text/css">
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>
 
-    {% include header.html %}
+<body class="scroll-assist perm-fixed-nav btn-rounded ">
+  {% include nav1.html %}
+  <div class="main-container">
+    {{ content }}
+    {% include cta3.html %}
+    {% include footer-slim.html copyright="© Copyright 2019 Dabble Lab - All Rights Reserved"%}
+  </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/flexslider.min.js"></script>
+  <script src="/js/parallax.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
 
 </html>

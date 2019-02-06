@@ -1,0 +1,26 @@
+<section class="pt120 pb40 pt-xs-80 pb-xs-80 bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <h3 class="mb48 mb-xs-32">What users are saying.</h3>
+        <div class="text-slider slider-arrow-controls text-center relative">
+          <ul class="slides">
+            {% for item in site.data.testimonials %}
+            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+              <p class="lead">{{item.testimonial}}</p>
+              <div class="quote-author">
+                <h6 class="uppercase mb0">{{item.name}}</h6>
+                <span>YouTube Subscriber</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+          <ul class="flex-direction-nav">
+            <li><a class="flex-prev" href="#">Previous</a></li>
+            <li><a class="flex-next" href="#">Next</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

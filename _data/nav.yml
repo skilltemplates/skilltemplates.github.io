@@ -10,6 +10,8 @@
 #           url: /page3
 
 main:
+  - page: Home
+    url: /
   - page: Templates
     url: /templates
   - page: Getting Started
